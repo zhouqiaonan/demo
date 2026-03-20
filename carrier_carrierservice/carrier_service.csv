@@ -1,0 +1,73 @@
+"id","carrier_id","code","name_en","name_cn","service_type","destination_type"
+"1","1","STANDARD","Standard",,"STANDARD",
+"2","2","STANDARD","Standard",,"STANDARD",
+"3","3","STANDARD","Standard",,"STANDARD",
+"5","5","STANDARD","Standard",,"STANDARD",
+"6","6","STANDARD","Standard",,"STANDARD",
+"7","7","STANDARD","Standard",,"STANDARD",
+"8","8","STANDARD","Standard",,"STANDARD",
+"9","9","STANDARD","Standard",,"STANDARD",
+"10","10","STANDARD","Standard",,"STANDARD",
+"11","11","STANDARD","Standard",,"STANDARD",
+"12","12","STANDARD","Standard",,"STANDARD",
+"13","13","STANDARD","Standard",,"STANDARD",
+"14","14","STANDARD","Standard",,"STANDARD",
+"15","15","STANDARD","Standard",,"STANDARD",
+"16","16","STANDARD","Standard",,"STANDARD",
+"17","17","STANDARD","Standard",,"STANDARD",
+"18","18","STANDARD","Standard",,"STANDARD",
+"19","19","STANDARD","Standard",,"STANDARD",
+"20","20","STANDARD","Standard",,"STANDARD",
+"21","21","STANDARD","Standard",,"STANDARD",
+"22","22","STANDARD","Standard",,"STANDARD",
+"23","23","YODEL_48","Yodel 48",,"STANDARD",
+"24","23","XPECT_LARGE_48","Xpect Large 48",,"STANDARD",
+"25","24","ES_ASM_MASSIVO_DOMESTIC","ES ASM Massivo Domestic",,"STANDARD","DOMESTIC"
+"26","24","ES_CORREOS_TR72_DOMESTIC","ES Correos TR72 Domestic",,"STANDARD","DOMESTIC"
+"27","24","ES_GLS_BUSINESS_DOMESTIC","ES GLS Business Domestic",,"STANDARD","DOMESTIC"
+"28","25","DE","DHL Germany Domestic",,"STANDARD","DOMESTIC"
+"29","25","INTL","DHL International",,"STANDARD","INTERNATIONAL"
+"30","26","DE","DPD Germany Domestic",,"STANDARD","DOMESTIC"
+"31","26","INTL","DPD International",,"STANDARD","INTERNATIONAL"
+"32","27","DE","GLS Germany Domestic",,"STANDARD","DOMESTIC"
+"33","27","INTL","GLS International",,"STANDARD","INTERNATIONAL"
+"34","28","STANDARD","CTT Standard",,"STANDARD",
+"35","29","STANDARD","SEUR Standard",,"STANDARD",
+"36","30","STANDARD_ES","GLS Standard Spain",,"STANDARD",
+"37","31","STANDARD","BRT Standard",,"STANDARD",
+"38","32","STANDARD","TNT Standard",,"STANDARD",
+"39","32","SFP","TNT SFP",,"PLATFORM",
+"40","30","STANDARD_FR","GLS Standard France",,"STANDARD",
+"41","33","STANDARD","BRT Standard",,"STANDARD",
+"42","34","STANDARD","UPS Europa",,"STANDARD","INTERNATIONAL"
+"43","35","STANDARD","DHL Standard",,"STANDARD",
+"44","36","STANDARD","Chronopost Standard",,"STANDARD",
+"45","37","FR","GLS France Domestic",,"STANDARD","DOMESTIC"
+"46","37","INTL","GLS International",,"STANDARD","INTERNATIONAL"
+"47","38","FR","DPD France Domestic",,"STANDARD","DOMESTIC"
+"48","38","INTL","DPD International",,"STANDARD","INTERNATIONAL"
+"49","39","FR","Geodis France Domestic",,"STANDARD","DOMESTIC"
+"50","39","DE_ES","Geodis Germany/Spain",,"STANDARD","INTERNATIONAL"
+"51","39","IT_BENELUX","Geodis Italy/Benelux",,"STANDARD","INTERNATIONAL"
+"52","40","UNKNOWN","Unknown Service",,,
+"53","41","XDP_1MAN_UK","XDP 1-Man UK",,"STANDARD",
+"54","41","XDP_2MAN_UK","XDP 2-Man UK",,"STANDARD",
+"55","42","EVRI_48_LOCAL","Evri 48 Local Delivery",,"STANDARD",
+"56","42","EVRI_48_LOCAL_LARGE","Evri 48 Local Large Parcel",,"STANDARD",
+"57","42","EVRI_24_LOCAL_LARGE","Evri 24 Local Large Parcel",,"EXPRESS",
+"58","43","WAYFAIR_UK_PLATFORM","Wayfair UK Platform Provided",,"PLATFORM",
+"59","44","YODEL_48","Yodel 48",,"STANDARD",
+"60","44","YODEL_48_XXL","Yodel 48 XXL",,"STANDARD",
+"61","45","DHL_EU_WAREHOUSE","DHL Warehouse Generated",,"STANDARD",
+"62","45","DHL_PLATFORM","DHL Platform Provided",,"PLATFORM",
+"63","46","DPD_EU_WAREHOUSE","DPD Warehouse Generated",,"STANDARD",
+"64","46","DPD_UK_LARGE","DPD UK Large Parcel",,"STANDARD",
+"65","47","DX_1MAN_UK","DX 1-Man UK",,"STANDARD",
+"66","47","DX_EXPRESS","DX Express",,"EXPRESS",
+"67","48","EXPRESS_48","Express 48",,"EXPRESS",
+"68","45","DE","DHL Germany Domestic",,"STANDARD","DOMESTIC"
+"69","45","INTL","DHL International",,"STANDARD","INTERNATIONAL"
+"70","46","DE","DPD Germany Domestic",,"STANDARD","DOMESTIC"
+"71","46","INTL","DPD International",,"STANDARD","INTERNATIONAL"
+"72","49","DE","GLS Germany Domestic",,"STANDARD","DOMESTIC"
+"73","49","INTL","GLS International",,"STANDARD","INTERNATIONAL"

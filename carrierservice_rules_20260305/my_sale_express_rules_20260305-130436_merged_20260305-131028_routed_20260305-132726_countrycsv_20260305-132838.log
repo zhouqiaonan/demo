@@ -1,0 +1,36 @@
+countrycsv run: 2026-03-05 13:28:38
+Input : /mnt/c/Users/robert/Google Drive/LAPTOP ONLY TIME/001 WORK/BAER Solutions GmbH/00 Projects/Meiying/IT/ubuntu-wsl/carrierservice_rules/my_sale_express_rules_20260305-130436_merged_20260305-131028_routed_20260305-132726.csv  (402 rows)
+
+Duplicate rule groups collapsed: 4 group(s), 10 row(s) dropped
+
+  Canonical ID    159  |  group size 5  |  countries: ['ES', 'FR', 'IT', 'NL', 'PL']
+    Kept   : 159
+    Dropped: 162
+    Dropped: 165
+    Dropped: 168
+    Dropped: 174
+
+  Canonical ID    160  |  group size 4  |  countries: ['ES', 'FR', 'IT', 'NL']
+    Kept   : 160
+    Dropped: 163
+    Dropped: 169
+    Dropped: 175
+
+  Canonical ID    170  |  group size 2  |  countries: ['AT', 'BE']
+    Kept   : 170
+    Dropped: 186
+
+  Canonical ID    384  |  group size 3  |  countries: ['FR', 'IE', 'IT']
+    Kept   : 384
+    Dropped: 385
+    Dropped: 392
+
+--- Summary ---
+  Input rows             : 402
+  Duplicate groups found : 4
+  Rows dropped           : 10
+  Output rows (deduped)  : 392
+  Output rows (countries): 402
+  Deduped CSV  : my_sale_express_rules_20260305-130436_merged_20260305-131028_routed_20260305-132726_deduped_20260305-132838.csv
+  Countries CSV: my_sale_express_rules_20260305-130436_merged_20260305-131028_routed_20260305-132726_countries_20260305-132838.csv
+  This log     : my_sale_express_rules_20260305-130436_merged_20260305-131028_routed_20260305-132726_countrycsv_20260305-132838.log

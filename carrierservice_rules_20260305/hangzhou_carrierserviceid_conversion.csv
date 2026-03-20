@@ -1,0 +1,70 @@
+bs_warehouse_id,bs_express_service_id,rules_qty,hangzhou_carrierservice_id,*NOTE*
+MY-KE,DeUPS>11>公司账号自买面单,42,2,
+MY-DE,DeUPS>11>公司账号自买面单,37,2,
+MY-DE,DPD>Classic>公司账号自买面单,31,5,
+SHAOKE-DE,DPD>DPD-欧洲仓库生成,31,14,
+MY-KE,DPD>Classic>公司账号自买面单,29,5,
+BS-DE,DHL>DHL-欧洲仓库生成,27,REMOVE_THESE_RULES (Warehouse not in use anymore),
+YDY-DE,DHL>DHL-欧洲仓库生成,26,68,domestic68+intl69
+YDY-DE,DPD>DPD-欧洲仓库生成,20,70,domestic70+intl71
+MY-KE,DeDHL>PAKET_INTERNATIONAL>德国发欧盟,15,3,
+SHAOKE-DE,DHL>DHL-欧洲仓库生成,14,13,
+MY-DE,DeDHL>PAKET_INTERNATIONAL>德国发欧盟,14,3,
+BS-DE,DPD>DPD-欧洲仓库生成,14,REMOVE_THESE_RULES (Warehouse not in use anymore),
+YC-PSJ-ES,CTT>CTT-派速捷西班牙仓生成,12,34,
+MY-KS,DPD>Classic>公司账号自买面单,10,5,
+SHAOKE-DE,DeUPS>11>公司账号自买面单,9,2,
+MY-DE,DeDHL>PAKET>德国发本土,8,3,
+YC-PSJ-ES,SEUR>SEUR-派速捷西班牙仓生成,8,35,
+YDY-DE,GLS>GLS-欧洲仓库生成,5,72,domestic72+intl73
+YC-FR,GLS>GLS-欧洲仓库生成,5,45,domestic45+intl46
+YC-PSJ-IT,BRT>BRT-意大利仓库生成,4,37,
+MY-KE,DeDHL>PAKET>德国发本土,4,3,
+YC-PSJ-IT,TNT>TNT-IT-PSJ,4,38,
+YC-IT,DHL>DHL-欧洲仓库生成,3,43,
+BGE-FR,DPD>DPD-欧洲仓库生成,3,REMOVE_THESE_RULES (Warehouse not in use anymore),
+MY-KS,DeUPS>11>公司账号自买面单,3,2,
+MY-SH,DeDHL>PAKET>德国发本土,3,3,
+CAINIAO-ES,GLS>ES_GLS_Business_Domestic>西班牙菜鸟生成,3,27,
+YDY-GB-M2,Yodel>Yodel-48>英国仓生成,3,59,
+YC-PSJ-FR,GLS>GLS-欧洲仓库生成,3,40,
+WP-DE02,DHL>DHL-欧洲仓库生成,3,28,domestic28+intl29
+MY-SH,DPD>Classic>公司账号自买面单,2,5,
+MY-KS,DeDHL>PAKET>德国发本土,2,3,
+MY-SH,DeUPS>11>公司账号自买面单,2,2,
+DD-GB,EVRI>英国Evri48本地派送>英国仓生成,2,21,
+DD-GB,DHL>DHL-欧洲仓库生成,2,18,
+WP-DE02,GLS>GLS-欧洲仓库生成,2,32,domestic32+intl33
+WP-DE02,DPD>DPD-欧洲仓库生成,2,30,domestic30+intl31
+YDY-GB,Yodel>Yodel-48>英国仓生成,2,59,
+YDY-GB-M2,DPD>易达云英国DPD大件,2,64,
+YC-PSJ-ES,GLS>GLS-欧洲仓库生成,2,36,
+YC-FR-LEH,GLS>GLS-欧洲仓库生成,2,45,domestic45+intl46
+YDY-GB-M2,DX>DX Express>易达云英国仓生成,2,66,
+YC-FR,Geodis>Geodis-法国遨森,2,49,domestic49+de_es50+it_benelux51
+YC-FR,Chronopost>Chronopost-法国遨森,2,44,
+SHAOKE-FR,GLS>GLS-欧洲仓库生成,1,100,New CarrierService
+CAINIAO-ES,GLS>ES_ASM_Massivo_Domestic>西班牙菜鸟生成,1,25,
+MY-KS,GLS>Parcel>公司账号自买面单,1,8,
+YC-FR,DPD>DPD-欧洲仓库生成,1,47,domestic47+intl48
+MY-KS,DPD>DPD-欧洲仓库生成,1,5,
+DD-GB,Yodel>Xpect Large 48,1,24,
+DD-GB,DPD>DPD-欧洲仓库生成,1,17,
+CAINIAO-ES,GLS>ES_Correos_TR72_Domestic>西班牙菜鸟生成,1,26,
+YC-IT,BRT>BRT-意大利仓库生成,1,41,
+YDY-DE,DeDHL>PAKET_INTERNATIONAL>德国发欧盟,1,69,domestic68+intl69
+YC-FR-LEH,Geodis>Geodis-法国遨森,1,49,domestic49+de_es50+it_benelux51
+YC-FR-LEH,Chronopost>Chronopost-法国遨森,1,44,
+YC-IT,UPS>EUROPA>欧洲仓库生成,1,42,
+YDY-GB,EVRI>英国Evri48本地大件派送>英国仓生成,1,56,
+YDY-GB,DPD>DPD-欧洲仓库生成,1,63,
+YDY-GB,EVRI>英国Evri24本地大件派送>英国仓生成,1,57,
+YDY-GB,DX>英国 DX 1 MAN>易达云英国仓生成,1,65,
+YDY-GB-M2,DPD>DPD-欧洲仓库生成,1,63,
+YDY-GB,XDP>英国（UKM）XDP 1man,1,53,
+YDY-GB,EVRI>英国Evri48本地派送>英国仓生成,1,55,
+YDY-GB-M2,DX>英国 DX 1 MAN>易达云英国仓生成,1,65,
+YDY-GB-M2,EVRI>英国Evri24本地大件派送>英国仓生成,1,57,
+YDY-GB-M2,EVRI>英国Evri48本地大件派送>英国仓生成,1,56,
+YDY-GB-M2,EVRI>英国Evri48本地派送>英国仓生成,1,55,
+YDY-GB-M2,XDP>英国（UKM）XDP 1man,1,53,

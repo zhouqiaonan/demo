@@ -1,0 +1,12 @@
+insert into logistics_shop_relations(rule_id,shop_id,created_time,updated_time,is_deleted,remarks) values(200,(select id from basedata_shops where name_ningbo like '%Amazon-Summit-DE%'),NOW(),NOW(),FALSE,'');
+insert into logistics_shop_relations(rule_id,shop_id,created_time,updated_time,is_deleted,remarks) values(251,(select id from basedata_shops where name_ningbo like '%Amazon-Summit-ES%'),NOW(),NOW(),FALSE,'');
+insert into logistics_shop_relations(rule_id,shop_id,created_time,updated_time,is_deleted,remarks) values(251,(select id from basedata_shops where name_ningbo like '%VC-Summit-DE%'),NOW(),NOW(),FALSE,'');
+insert into logistics_shop_relations(rule_id,shop_id,created_time,updated_time,is_deleted,remarks) values(251,(select id from basedata_shops where name_ningbo like '%Manomano-Tozey-DE%'),NOW(),NOW(),FALSE,'');
+insert into logistics_shop_relations(rule_id,shop_id,created_time,updated_time,is_deleted,remarks) values(251,(select id from basedata_shops where name_ningbo like '%Amazon-Triumphkey-DE%'),NOW(),NOW(),FALSE,'');
+insert into logistics_shop_relations(rule_id,shop_id,created_time,updated_time,is_deleted,remarks) values(251,(select id from basedata_shops where name_ningbo like '%Amazon-Mainwin-DE%'),NOW(),NOW(),FALSE,'');
+insert into logistics_shop_relations(rule_id,shop_id,created_time,updated_time,is_deleted,remarks) values(251,(select id from basedata_shops where name_ningbo like '%OTTO-Triumphkey-DE%'),NOW(),NOW(),FALSE,'');
+insert into logistics_shop_relations(rule_id,shop_id,created_time,updated_time,is_deleted,remarks) values(251,(select id from basedata_shops where name_ningbo like '%Shopify-Furniwell-DE%'),NOW(),NOW(),FALSE,'');
+insert into logistics_shop_relations(rule_id,shop_id,created_time,updated_time,is_deleted,remarks) values(222,(select id from basedata_shops where name_ningbo like '%Manomano-Tozey-UK%'),NOW(),NOW(),FALSE,'');
+insert into logistics_shop_relations(rule_id,shop_id,created_time,updated_time,is_deleted,remarks) values(222,(select id from basedata_shops where name_ningbo like '%Amazon-Mainwin-UK%'),NOW(),NOW(),FALSE,'');
+insert into logistics_shop_relations(rule_id,shop_id,created_time,updated_time,is_deleted,remarks) values(222,(select id from basedata_shops where name_ningbo like '%Amazon-Triumphkey-UK%'),NOW(),NOW(),FALSE,'');
+insert into logistics_shop_relations(rule_id,shop_id,created_time,updated_time,is_deleted,remarks) values(222,(select id from basedata_shops where name_ningbo like '%Amazon-Summit-UK%'),NOW(),NOW(),FALSE,'');

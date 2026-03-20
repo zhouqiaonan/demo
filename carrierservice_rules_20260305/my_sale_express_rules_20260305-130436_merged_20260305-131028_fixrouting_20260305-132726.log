@@ -1,0 +1,40 @@
+fixrouting run: 2026-03-05 13:27:26
+Input  : /mnt/c/Users/robert/Google Drive/LAPTOP ONLY TIME/001 WORK/BAER Solutions GmbH/00 Projects/Meiying/IT/ubuntu-wsl/carrierservice_rules/my_sale_express_rules_20260305-130436_merged_20260305-131028.csv  (402 rows)
+Changes: 34
+
+sale_express_rules_id    warehouse      service                                  country  old_id   new_id
+--------------------------------------------------------------------------------------------------------------
+158                      YDY-DE         DHL>DHL-欧洲仓库生成                           ES       68       → 69
+159                      YDY-DE         DPD>DPD-欧洲仓库生成                           ES       70       → 71
+160                      YDY-DE         DHL>DHL-欧洲仓库生成                           ES       68       → 69
+161                      YDY-DE         DHL>DHL-欧洲仓库生成                           FR       68       → 69
+162                      YDY-DE         DPD>DPD-欧洲仓库生成                           FR       70       → 71
+163                      YDY-DE         DHL>DHL-欧洲仓库生成                           FR       68       → 69
+164                      YDY-DE         DHL>DHL-欧洲仓库生成                           PL       68       → 69
+165                      YDY-DE         DPD>DPD-欧洲仓库生成                           PL       70       → 71
+166                      YDY-DE         DHL>DHL-欧洲仓库生成                           PL       68       → 69
+167                      YDY-DE         DHL>DHL-欧洲仓库生成                           NL       68       → 69
+168                      YDY-DE         DPD>DPD-欧洲仓库生成                           NL       70       → 71
+169                      YDY-DE         DHL>DHL-欧洲仓库生成                           NL       68       → 69
+170                      YDY-DE         DPD>DPD-欧洲仓库生成                           BE       70       → 71
+171                      YDY-DE         DHL>DHL-欧洲仓库生成                           BE       68       → 69
+173                      YDY-DE         DHL>DHL-欧洲仓库生成                           IT       68       → 69
+174                      YDY-DE         DPD>DPD-欧洲仓库生成                           IT       70       → 71
+175                      YDY-DE         DHL>DHL-欧洲仓库生成                           IT       68       → 69
+186                      YDY-DE         DPD>DPD-欧洲仓库生成                           AT       70       → 71
+363                      YDY-DE         DPD>DPD-欧洲仓库生成                           PT       70       → 71
+364                      YDY-DE         DHL>DHL-欧洲仓库生成                           PT       68       → 69
+366                      YDY-DE         DPD>DPD-欧洲仓库生成                           IE       70       → 71
+367                      YDY-DE         DHL>DHL-欧洲仓库生成                           IE       68       → 69
+368                      YDY-DE         DPD>DPD-欧洲仓库生成                           LU       70       → 71
+369                      YDY-DE         DHL>DHL-欧洲仓库生成                           LU       68       → 69
+370                      YDY-DE         DHL>DHL-欧洲仓库生成                           DK       68       → 69
+371                      YDY-DE         DPD>DPD-欧洲仓库生成                           DK       70       → 71
+372                      YDY-DE         DHL>DHL-欧洲仓库生成                           DK       68       → 69
+373                      YDY-DE         DHL>DHL-欧洲仓库生成                           CZ       68       → 69
+374                      YDY-DE         DPD>DPD-欧洲仓库生成                           CZ       70       → 71
+375                      YDY-DE         DHL>DHL-欧洲仓库生成                           CZ       68       → 69
+376                      YDY-DE         DHL>DHL-欧洲仓库生成                           HU       68       → 69
+377                      YDY-DE         DPD>DPD-欧洲仓库生成                           HU       70       → 71
+378                      YDY-DE         DHL>DHL-欧洲仓库生成                           HU       68       → 69
+749                      YDY-DE         DPD>DPD-欧洲仓库生成                           SE       70       → 71

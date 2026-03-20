@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0  # 指定使用 MySQL 8.0 版本，也可以改成 mysql:5.7
+    container_name: mysql-8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword  # root 用户的密码 (请修改)
+      MYSQL_DATABASE: my_database        # 启动时自动创建的数据库名 (可选)
+      MYSQL_USER: user                   # 创建一个普通用户 (可选)
+      MYSQL_PASSWORD: password           # 普通用户的密码 (可选)
+      TZ: Asia/Shanghai                  # 设置时区
+    ports:
+      - "3306:3306"  # 映射端口：左边是宿主机端口，右边是容器端口
+    volumes:
+      - ./data:/var/lib/mysql       # 数据持久化：将数据保存在当前目录下的 data 文件夹
+      - ./conf:/etc/mysql/conf.d    # 配置挂载：将自定义配置保存在 conf 文件夹
+      - ./init:/docker-entrypoint-initdb.d # 初始化脚本：放入 .sql 文件会自动执行
+    command: --default-authentication-plugin=mysql_native_password
