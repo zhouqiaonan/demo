@@ -2,8 +2,10 @@ import json
 import random
 import re
 import time
+from datetime import datetime
 from urllib import request
 
+import pymysql
 import requests
 
 
@@ -51,25 +53,55 @@ class MaoyanSpider(object):
 
     def save_html(self, r_list):
         new_list = []
-        for r in r_list:
-            # print(r)
-            new_str = ""
-            new_i_list = []
-            for i in r:
-                # print(i.strip())
-                i_list = i.strip().split('：')
-                if len(i_list) == 2:
-                    new_i_list.append(i_list[1])
-                else:
-                    new_i_list.append(i_list[0])
-            new_list.append(" ".join(new_i_list))
+        for item in r_list:
+            processed_item  = self._process_item(item)
+            new_list.append(" ".join(processed_item))
+            self.sql_insert(processed_item)
         print(new_list)
-        with open('maoyan_verify.csv', 'w', encoding="utf-8") as f:
+        with open('maoyan_verify.csv', 'a+', encoding="utf-8") as f:
             for i in new_list:
                 f.write(i + '\n')
 
+    def _process_item(self, item):
+        res_lst = []
+        for i in item:
+            i_list = i.strip().split('：')
+            if len(i_list) == 2:
+                new_time = self.recursion_time(i_list[1])
+                res_lst.append(new_time)
+            else:
+                res_lst.append(i_list[0])
+        print(res_lst)
+        res_lst = self.deal_time(res_lst)
+        return res_lst
+
+    def deal_time(self, res_lst):
+        create_time = res_lst.pop()
+        if len(create_time.split("-")) == 1:
+            create_time = f"{create_time}-1-1"
+        res_lst.append(create_time)
+        return res_lst
+
+    def recursion_time(self, create_time):
+        if "(" in create_time:
+            new_time = create_time.split("(")[0]
+        else:
+            new_time = create_time
+
+        return new_time
+
+    def sql_insert(self, info_list):
+        db = pymysql.connect(host="localhost", user="user", password="password", db="my_database")
+        cursor = db.cursor()
+        # info_list = ["我不是药神", "徐峥,王传君,周一围", "2018-07-05"]
+        sql = "insert into movieinfo values (%s, %s, %s)"
+        cursor.execute(sql, info_list)
+        db.commit()
+        cursor.close()
+        db.close()
+
     def run(self):
-        for offset in range(0, 2, 10):
+        for offset in range(0, 100, 10):
             url = self.url.format(offset)
             self.get_html(url)
             time.sleep(random.randint(1, 2))
@@ -79,5 +111,6 @@ if __name__ == '__main__':
     try:
         spider = MaoyanSpider()
         spider.run()
+        # spider.sql_insert()
     except Exception as e:
         print(e)
